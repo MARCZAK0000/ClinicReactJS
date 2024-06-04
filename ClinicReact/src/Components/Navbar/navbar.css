@@ -1,0 +1,25 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.nav-container .nav-container__links{
+    display: flex;
+    gap: 100px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+.nav__link:hover{
+    animation: nav-color__change 1s forwards ease-in;
+}
+.nav__link{
+    text-decoration: none;
+    color: black;
+}
+@keyframes nav-color__change {
+    from{ color: black;}
+    to { color: rgba(26, 62, 65, 0.622);}
+}

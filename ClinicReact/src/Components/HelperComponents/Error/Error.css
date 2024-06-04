@@ -1,0 +1,27 @@
+.error-page{
+    user-select: none;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fasthand', cursive;
+}
+.error-content__svg{
+    text-align: center;
+    animation: scale 2s infinite forwards linear;
+    
+}
+.error-contnet__info{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+@keyframes scale {
+    0%{transform: scale(1.0);}
+    25%{transform: scale(1.2);}
+    50%{transform: scale(1.4);}
+    75%{transform: scale(1.2);}
+    100%{transform: scale(1.0);}
+}

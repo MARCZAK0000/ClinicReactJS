@@ -1,0 +1,190 @@
+.main-container{
+    box-sizing: border-box;
+}
+
+.box__carousel-container{
+    position: relative;
+    width: 100%;
+}
+.box__carousel-container .offert-box__title{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 200px;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.box__carousel-container .offert-box__title span{
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}
+.offer-box__about{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 200px;
+    bottom: 200px;
+}
+.box__about-container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    background-color: rgba(82, 137, 172, 0.557);
+    border-radius: 20px;
+}
+.box__about-container span a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.arrow-svg{
+    margin-left: 5px;
+}
+.carousel_img{
+    width: 100%;
+    opacity: 1;
+}
+.caroulse__buttons{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.carousle__buttons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.caroulse__buttons .caroulse__button{
+    user-select: none;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 0.25px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.offert-box__cards{
+    width: auto;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.box__cards-container{
+    display: flex;
+    justify-content: center;
+}
+.box__cards{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    margin-right: 5px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.box__cards a{
+    position: relative;
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    fill: white;
+    cursor: pointer;
+}
+.box__cards a .box__cards-title{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-size: 25px;
+}
+.box__cards-title2{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    font-size: 25px;
+}
+.box__cards-about{
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    left: 5px;
+    top: 210px
+}
+.card1{
+    background-color: rgb(51, 24, 183);
+}
+.card2{
+    background-color: blueviolet;
+}
+.card3{
+    background-color: orange;
+}
+
+
+.benifications-box{
+    height: max-content;
+    background-color: rgba(0, 255, 255, 0.097);
+    display: flex;
+    justify-content: center;
+}
+.benifications-box__container{
+    height: max-content;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 20px 20px 60px 40px;
+}
+.benifications-box__container .benifications-header h5{
+    font-size: 25px;
+    color: rgb(16, 73, 73);
+}
+.benifications-box__container .benifications-header h3{
+    font-size: 35px;
+}
+.benifications-box__container .benifications-header p{
+    color: grey;
+}
+
+.benifications-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+}
+.benfication-item{
+    display: flex;
+    gap: 20px;
+}
+.benfication-item__title{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+}
+.benfication-item__svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(100, 193, 205);
+}

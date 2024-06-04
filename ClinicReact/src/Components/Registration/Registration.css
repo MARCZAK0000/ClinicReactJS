@@ -1,0 +1,91 @@
+.container-registration{
+    border-top: 0.25px solid rgba(128, 128, 128, 0.335);
+}
+.container-registration__box{
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+.registration-img__box{
+    position: absolute;
+    margin: right;
+    left: 900px;
+    top: 20px;
+}
+.registration-img{
+    width: 600px;
+}
+.registration-box{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.registration__content{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.registration-content__title{
+    height: 70px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    border: 0.2px solid  rgba(128, 128, 128, 0.335);
+    border-radius: 20px ;
+}
+.registration-content__form{
+    width: 250px;
+}
+.registration-content__form__button{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.registration-content__form__button button{
+    display: block;
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(22, 133, 22, 0.778);
+}
+.registration-content__form__button button:hover{
+    animation: registerButtonColor 1s forwards linear;
+}
+
+@keyframes registerButtonColor {
+    from {background-color: rgba(22, 133, 22, 0.778);}
+    to {background-color: rgba(22, 133, 22, 0.314);}
+}
+.form-input{
+    width: 250px;
+}
+.form-input__label{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    
+}
+.form-input__input{
+    width: 250px;
+    height: min-content;
+}
+.form-input__input input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(255, 217, 0, 0.221);
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}

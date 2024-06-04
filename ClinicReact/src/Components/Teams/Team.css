@@ -1,0 +1,157 @@
+.team-container{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.team-container__box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.team__box-cards{
+    width: 70%;
+}
+.team__cards-content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.team__cards-single{
+    margin: 10px 0px;
+}
+.cards-single__deprtement{
+    background-color: #88B04B;
+    display: flex;
+    border-radius: 20px;
+    
+}
+.cards-department__title{
+    font-size: 25px;
+    flex-grow: 11;
+    box-sizing: border-box;
+    padding-left: 60px;
+    letter-spacing: 0.25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards-single__button{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+}
+.cards__button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: solid black 0.25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cards__button:hover{
+    animation: cards__button 0.5s forwards ease-in;
+}
+
+@keyframes cards__button {
+    from{ background-color: #88B04B;}
+    to { background-color: #007256 ;}
+}
+
+.card-doctor-container{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.doctor-container__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 80px;
+    width: 90%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #6B5B95;
+    color: rgb(233, 225, 225);
+}
+.doctor-container__information{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.doctor-inforamtion__title{
+    display: flex;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.doctor-inforamtion__Name{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.doctor-information__fistname{
+    font-size: 16px;
+    font-weight: 300;
+}
+.doctor-information__lastname{
+    font-size: 22px;
+    
+}
+.doctor-container__button
+{
+    height: 40px;
+    margin-right: 20px;
+}
+.doctor-button__box{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.doctor-button{
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    border: 0.25 solid rgb(233, 225, 225);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.visible{
+    display: block;
+    animation: fade_in 500ms forwards linear;
+}
+.invisible{
+   display: none;
+}
+
+@keyframes fade_in {
+    0% {opacity: 0;}
+    20% {opacity: 0.2;}
+    40% {opacity: 0.4;}
+    60% {opacity: 0.6;}
+    80% {opacity: 0.8;}
+    100% {opacity: 1;}
+}
+
+.team__cards-content__fail{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-cotnent_fail{
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #88B04B;
+    border-radius: 20px;
+}

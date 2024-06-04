@@ -1,0 +1,131 @@
+.user-main__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0.25px solid gray;
+}
+.user-main-containe{
+    position: relative;
+    width: auto;
+}
+.user-main__img{
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+}
+.user-main__img-doc{
+    width: 300px;
+}
+.user-main__content{
+    display: flex;
+    justify-content: center;
+}
+.user-main__navbar{
+    box-sizing: border-box;
+    width: 15%;
+    padding: 40px 0px;
+    border-right: 0.25px solid gray;
+}
+.user-main__informations{
+    width: 85%;
+}
+.user-main__navbar-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.user-main__navbar-list{
+    box-sizing: border-box;
+    padding: 60px 0px;
+}
+.user-main__list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+}
+.user-main__list-item{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+.user-main__list-item:hover{
+    background-color: #804808;
+}
+.user-main__list-link{
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.user-main__link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.user-main__logout-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.logut__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 20%;
+    border: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #9bc400;
+    transition: 0.5s background ;
+}
+.logut__button:hover{
+    background-color: #4e6304;
+}
+.user-main__info-container{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.user-visits__box{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 70%;
+    min-height: 500px;
+    border: 0.25px solid gray;
+    border-radius: 20px;
+    background-color: #d1c8b2;
+}
+.user-visit__visit-item{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #ea5414;
+    border-radius: 5px;
+}
+.user-visit__item-box{
+    box-sizing: border-box;
+    height: inherit;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+}
+.user-visit__item{
+    font-weight: 800;
+}
+
